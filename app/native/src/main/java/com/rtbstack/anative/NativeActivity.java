@@ -40,7 +40,7 @@ public class NativeActivity extends AppCompatActivity {
 
         nativeAdView = findViewById(R.id.native_ad_layout);
 
-        SDKSettings.setRequestBaseUrl("https://lx-adxwl-stage.admixer.net/sdk?client=d950f879-588c-46ff-aa4c-54a3b4c0a827&ssp=6713&endpoint=6298");
+        SDKSettings.setRequestBaseUrl("SERVER URL"); //Your server url, obtained from the Edit Endpoint window in UI
 
         NativeAdRequest adRequest = new NativeAdRequest(this, "TAG ID");  // Your custom tag id, may be any string value
         EnumSet<NativeAdAsset> assets = EnumSet.of(
