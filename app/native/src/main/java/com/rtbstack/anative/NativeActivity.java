@@ -20,7 +20,6 @@ import com.rtbstack.sdk.NativeAdView;
 import com.rtbstack.sdk.NativeIconView;
 import com.rtbstack.sdk.ResultCode;
 import com.rtbstack.sdk.SDKSettings;
-import com.rtbstack.sdk.utils.Clog;
 
 import java.util.EnumSet;
 
